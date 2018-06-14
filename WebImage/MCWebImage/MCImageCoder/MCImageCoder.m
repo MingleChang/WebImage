@@ -53,7 +53,8 @@
         }break;
         case MCWebImageTypeWEBP:{
             lData = [MCImageWebPEncoder encodeFrames:self.frames];
-        }default:{
+        }break;
+        default:{
             lData = [MCImageDefaultEncoder encodeFrames:self.frames];
         }break;
     }

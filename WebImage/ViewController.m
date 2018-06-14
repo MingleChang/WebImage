@@ -26,12 +26,12 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    NSString *lPath = [[NSBundle mainBundle] pathForResource:@"a" ofType:@"webp"];
+    NSString *lPath = [[NSBundle mainBundle] pathForResource:@"d" ofType:@"webp"];
     NSData *lData = [NSData dataWithContentsOfFile:lPath];
     MCImageCoder *lCoder = [[MCImageCoder alloc] initWithData:lData];
     self.imageView.image = [lCoder image];
-    lData = [lCoder dataWithType:MCWebImageTypePNG];
-    [lData writeToFile:@"/Users/gongtao/Desktop/a.png" atomically:YES];
+//    lData = [lCoder dataWithType:MCWebImageTypeWEBP];
+//    [lData writeToFile:@"/Users/gongtao/Desktop/d.webp" atomically:YES];
     NSLog(@"HelloWorld");
 //    [self.imageView mc_setImageWith:@"http://img.zcool.cn/community/01c7415930cb03a8012193a313edff.gif" placeholder:[UIImage imageNamed:@"a.jpg"] options:0 progress:^(int64_t bytes, int64_t totalBytes, int64_t totalBytesExpected) {
 //        NSLog(@"DOWNLOAD %lli,%lli,%lli",bytes,totalBytes,totalBytesExpected);
