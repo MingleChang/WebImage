@@ -8,6 +8,7 @@
 
 #import "UIImage+MCWebImage.h"
 #import "NSData+MCWebImage.h"
+#import "MCImageCoder.h"
 
 @implementation UIImage (MCWebImage)
 
@@ -15,17 +16,20 @@
     if (!data || ![data isKindOfClass:[NSData class]]) {
         return nil;
     }
-    UIImage *lImage = nil;
-    MCWebImageType lType = [data mc_imageType];
-    switch (lType) {
-        case MCWebImageTypeGIF:{
-            lImage = [UIImage mc_animatedGIFWithData:data];
-        }break;
-        default:{
-            lImage = [UIImage imageWithData:data];
-        }break;
-    }
+    MCImageCoder *lCoder = [[MCImageCoder alloc] initWithData:data];
+    UIImage *lImage = [lCoder image];
     return lImage;
+//    UIImage *lImage = nil;
+//    MCWebImageType lType = [data mc_imageType];
+//    switch (lType) {
+//        case MCWebImageTypeGIF:{
+//            lImage = [UIImage mc_animatedGIFWithData:data];
+//        }break;
+//        default:{
+//            lImage = [UIImage imageWithData:data];
+//        }break;
+//    }
+//    return lImage;
 }
 
 

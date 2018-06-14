@@ -16,6 +16,19 @@
 		423E786820C13434003C8236 /* MCImageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E785D20C13434003C8236 /* MCImageDownloadManager.m */; };
 		423E786920C13434003C8236 /* MCImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E786020C13434003C8236 /* MCImageCacheManager.m */; };
 		423E786A20C13434003C8236 /* MCImageDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E786120C13434003C8236 /* MCImageDownloadTask.m */; };
+		42996A3320D23BBC0013D8EE /* c.webp in Resources */ = {isa = PBXBuildFile; fileRef = 42996A3220D23BBC0013D8EE /* c.webp */; };
+		42996A3620D240D10013D8EE /* MCImageDefaultEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42996A3520D240D10013D8EE /* MCImageDefaultEncoder.m */; };
+		42996A3920D2455D0013D8EE /* MCImageGifEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42996A3820D2455D0013D8EE /* MCImageGifEncoder.m */; };
+		42996A3B20D2494A0013D8EE /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42996A3A20D2494A0013D8EE /* WebP.framework */; };
+		42996AAE20D24C240013D8EE /* MCImageWebPEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42996AAD20D24C240013D8EE /* MCImageWebPEncoder.m */; };
+		42E1407920D1F88F007CD0FB /* MCImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1407820D1F88F007CD0FB /* MCImageFrame.m */; };
+		42E1408D20D1FACC007CD0FB /* MCImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1408C20D1FACC007CD0FB /* MCImageCoder.m */; };
+		42E1409020D20157007CD0FB /* MCImageDefaultDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1408F20D20157007CD0FB /* MCImageDefaultDecoder.m */; };
+		42E1409220D202C3007CD0FB /* a.webp in Resources */ = {isa = PBXBuildFile; fileRef = 42E1409120D202C3007CD0FB /* a.webp */; };
+		42E1409520D2049E007CD0FB /* MCImageGifDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1409420D2049E007CD0FB /* MCImageGifDecoder.m */; };
+		42E1409720D208DF007CD0FB /* a.gif in Resources */ = {isa = PBXBuildFile; fileRef = 42E1409620D208DF007CD0FB /* a.gif */; };
+		42E1409A20D209E2007CD0FB /* MCImageWebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1409920D209E2007CD0FB /* MCImageWebPDecoder.m */; };
+		42E1409E20D211A7007CD0FB /* b.webp in Resources */ = {isa = PBXBuildFile; fileRef = 42E1409D20D211A7007CD0FB /* b.webp */; };
 		42FAEAEC20C0DDE100C0F027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FAEAEB20C0DDE100C0F027 /* AppDelegate.m */; };
 		42FAEAEF20C0DDE100C0F027 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FAEAEE20C0DDE100C0F027 /* ViewController.m */; };
 		42FAEAF220C0DDE100C0F027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FAEAF020C0DDE100C0F027 /* Main.storyboard */; };
@@ -43,6 +56,27 @@
 		423E786020C13434003C8236 /* MCImageCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCImageCacheManager.m; sourceTree = "<group>"; };
 		423E786120C13434003C8236 /* MCImageDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCImageDownloadTask.m; sourceTree = "<group>"; };
 		423E786220C13434003C8236 /* MCWebImageConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWebImageConfigure.h; sourceTree = "<group>"; };
+		42996A3220D23BBC0013D8EE /* c.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = c.webp; sourceTree = "<group>"; };
+		42996A3420D240D10013D8EE /* MCImageDefaultEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCImageDefaultEncoder.h; sourceTree = "<group>"; };
+		42996A3520D240D10013D8EE /* MCImageDefaultEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCImageDefaultEncoder.m; sourceTree = "<group>"; };
+		42996A3720D2455D0013D8EE /* MCImageGifEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCImageGifEncoder.h; sourceTree = "<group>"; };
+		42996A3820D2455D0013D8EE /* MCImageGifEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCImageGifEncoder.m; sourceTree = "<group>"; };
+		42996A3A20D2494A0013D8EE /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		42996AAC20D24C240013D8EE /* MCImageWebPEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCImageWebPEncoder.h; sourceTree = "<group>"; };
+		42996AAD20D24C240013D8EE /* MCImageWebPEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCImageWebPEncoder.m; sourceTree = "<group>"; };
+		42E1407720D1F88F007CD0FB /* MCImageFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCImageFrame.h; sourceTree = "<group>"; };
+		42E1407820D1F88F007CD0FB /* MCImageFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCImageFrame.m; sourceTree = "<group>"; };
+		42E1408B20D1FACC007CD0FB /* MCImageCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCImageCoder.h; sourceTree = "<group>"; };
+		42E1408C20D1FACC007CD0FB /* MCImageCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCImageCoder.m; sourceTree = "<group>"; };
+		42E1408E20D20157007CD0FB /* MCImageDefaultDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCImageDefaultDecoder.h; sourceTree = "<group>"; };
+		42E1408F20D20157007CD0FB /* MCImageDefaultDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCImageDefaultDecoder.m; sourceTree = "<group>"; };
+		42E1409120D202C3007CD0FB /* a.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.webp; sourceTree = "<group>"; };
+		42E1409320D2049E007CD0FB /* MCImageGifDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCImageGifDecoder.h; sourceTree = "<group>"; };
+		42E1409420D2049E007CD0FB /* MCImageGifDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCImageGifDecoder.m; sourceTree = "<group>"; };
+		42E1409620D208DF007CD0FB /* a.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a.gif; sourceTree = "<group>"; };
+		42E1409820D209E2007CD0FB /* MCImageWebPDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCImageWebPDecoder.h; sourceTree = "<group>"; };
+		42E1409920D209E2007CD0FB /* MCImageWebPDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCImageWebPDecoder.m; sourceTree = "<group>"; };
+		42E1409D20D211A7007CD0FB /* b.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = b.webp; sourceTree = "<group>"; };
 		42FAEAE720C0DDE100C0F027 /* WebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FAEAEA20C0DDE100C0F027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42FAEAEB20C0DDE100C0F027 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42996A3B20D2494A0013D8EE /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +104,8 @@
 		423E785120C13434003C8236 /* MCWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				42996A3A20D2494A0013D8EE /* WebP.framework */,
+				42E1407620D1F780007CD0FB /* MCImageCoder */,
 				423E785320C13434003C8236 /* MCWebImage.h */,
 				423E786220C13434003C8236 /* MCWebImageConfigure.h */,
 				423E785920C13434003C8236 /* MCWebImageConfigure.m */,
@@ -88,6 +125,29 @@
 				423E785520C13434003C8236 /* UIImageView+MCWebImage.m */,
 			);
 			path = MCWebImage;
+			sourceTree = "<group>";
+		};
+		42E1407620D1F780007CD0FB /* MCImageCoder */ = {
+			isa = PBXGroup;
+			children = (
+				42E1407720D1F88F007CD0FB /* MCImageFrame.h */,
+				42E1407820D1F88F007CD0FB /* MCImageFrame.m */,
+				42E1408B20D1FACC007CD0FB /* MCImageCoder.h */,
+				42E1408C20D1FACC007CD0FB /* MCImageCoder.m */,
+				42E1408E20D20157007CD0FB /* MCImageDefaultDecoder.h */,
+				42E1408F20D20157007CD0FB /* MCImageDefaultDecoder.m */,
+				42E1409320D2049E007CD0FB /* MCImageGifDecoder.h */,
+				42E1409420D2049E007CD0FB /* MCImageGifDecoder.m */,
+				42E1409820D209E2007CD0FB /* MCImageWebPDecoder.h */,
+				42E1409920D209E2007CD0FB /* MCImageWebPDecoder.m */,
+				42996A3420D240D10013D8EE /* MCImageDefaultEncoder.h */,
+				42996A3520D240D10013D8EE /* MCImageDefaultEncoder.m */,
+				42996A3720D2455D0013D8EE /* MCImageGifEncoder.h */,
+				42996A3820D2455D0013D8EE /* MCImageGifEncoder.m */,
+				42996AAC20D24C240013D8EE /* MCImageWebPEncoder.h */,
+				42996AAD20D24C240013D8EE /* MCImageWebPEncoder.m */,
+			);
+			path = MCImageCoder;
 			sourceTree = "<group>";
 		};
 		42FAEADE20C0DDE100C0F027 = {
@@ -111,6 +171,10 @@
 			children = (
 				423E785120C13434003C8236 /* MCWebImage */,
 				423E780220C130A9003C8236 /* a.jpg */,
+				42E1409620D208DF007CD0FB /* a.gif */,
+				42E1409120D202C3007CD0FB /* a.webp */,
+				42E1409D20D211A7007CD0FB /* b.webp */,
+				42996A3220D23BBC0013D8EE /* c.webp */,
 				42FAEAEA20C0DDE100C0F027 /* AppDelegate.h */,
 				42FAEAEB20C0DDE100C0F027 /* AppDelegate.m */,
 				42FAEAED20C0DDE100C0F027 /* ViewController.h */,
@@ -181,8 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E1409E20D211A7007CD0FB /* b.webp in Resources */,
+				42E1409720D208DF007CD0FB /* a.gif in Resources */,
+				42E1409220D202C3007CD0FB /* a.webp in Resources */,
 				42FAEAF720C0DDE200C0F027 /* LaunchScreen.storyboard in Resources */,
 				423E780320C130A9003C8236 /* a.jpg in Resources */,
+				42996A3320D23BBC0013D8EE /* c.webp in Resources */,
 				42FAEAF420C0DDE200C0F027 /* Assets.xcassets in Resources */,
 				42FAEAF220C0DDE100C0F027 /* Main.storyboard in Resources */,
 			);
@@ -198,13 +266,21 @@
 				423E786320C13434003C8236 /* UIImage+MCWebImage.m in Sources */,
 				423E786A20C13434003C8236 /* MCImageDownloadTask.m in Sources */,
 				423E786420C13434003C8236 /* NSString+MCWebImage.m in Sources */,
+				42E1407920D1F88F007CD0FB /* MCImageFrame.m in Sources */,
 				423E786620C13434003C8236 /* NSData+MCWebImage.m in Sources */,
+				42E1409520D2049E007CD0FB /* MCImageGifDecoder.m in Sources */,
+				42E1409A20D209E2007CD0FB /* MCImageWebPDecoder.m in Sources */,
+				42996A3620D240D10013D8EE /* MCImageDefaultEncoder.m in Sources */,
 				423E786720C13434003C8236 /* MCWebImageConfigure.m in Sources */,
 				423E786920C13434003C8236 /* MCImageCacheManager.m in Sources */,
 				42FAEAEF20C0DDE100C0F027 /* ViewController.m in Sources */,
 				423E786520C13434003C8236 /* UIImageView+MCWebImage.m in Sources */,
 				42FAEAFA20C0DDE200C0F027 /* main.m in Sources */,
 				42FAEAEC20C0DDE100C0F027 /* AppDelegate.m in Sources */,
+				42E1408D20D1FACC007CD0FB /* MCImageCoder.m in Sources */,
+				42996AAE20D24C240013D8EE /* MCImageWebPEncoder.m in Sources */,
+				42996A3920D2455D0013D8EE /* MCImageGifEncoder.m in Sources */,
+				42E1409020D20157007CD0FB /* MCImageDefaultDecoder.m in Sources */,
 				423E786820C13434003C8236 /* MCImageDownloadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +423,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = USZ9R7RQAA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebImage",
+					"$(PROJECT_DIR)/WebImage/MCWebImage",
+				);
 				INFOPLIST_FILE = WebImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -364,6 +445,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = USZ9R7RQAA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebImage",
+					"$(PROJECT_DIR)/WebImage/MCWebImage",
+				);
 				INFOPLIST_FILE = WebImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
