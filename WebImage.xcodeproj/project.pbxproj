@@ -16,6 +16,7 @@
 		423E786820C13434003C8236 /* MCImageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E785D20C13434003C8236 /* MCImageDownloadManager.m */; };
 		423E786920C13434003C8236 /* MCImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E786020C13434003C8236 /* MCImageCacheManager.m */; };
 		423E786A20C13434003C8236 /* MCImageDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E786120C13434003C8236 /* MCImageDownloadTask.m */; };
+		4253FBEF20D363FF0066871D /* b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4253FBEE20D363FF0066871D /* b.gif */; };
 		42996A3320D23BBC0013D8EE /* c.webp in Resources */ = {isa = PBXBuildFile; fileRef = 42996A3220D23BBC0013D8EE /* c.webp */; };
 		42996A3620D240D10013D8EE /* MCImageDefaultEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42996A3520D240D10013D8EE /* MCImageDefaultEncoder.m */; };
 		42996A3920D2455D0013D8EE /* MCImageGifEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42996A3820D2455D0013D8EE /* MCImageGifEncoder.m */; };
@@ -57,6 +58,7 @@
 		423E786020C13434003C8236 /* MCImageCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCImageCacheManager.m; sourceTree = "<group>"; };
 		423E786120C13434003C8236 /* MCImageDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCImageDownloadTask.m; sourceTree = "<group>"; };
 		423E786220C13434003C8236 /* MCWebImageConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWebImageConfigure.h; sourceTree = "<group>"; };
+		4253FBEE20D363FF0066871D /* b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b.gif; sourceTree = "<group>"; };
 		42996A3220D23BBC0013D8EE /* c.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = c.webp; sourceTree = "<group>"; };
 		42996A3420D240D10013D8EE /* MCImageDefaultEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCImageDefaultEncoder.h; sourceTree = "<group>"; };
 		42996A3520D240D10013D8EE /* MCImageDefaultEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCImageDefaultEncoder.m; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				423E785120C13434003C8236 /* MCWebImage */,
 				423E780220C130A9003C8236 /* a.jpg */,
 				42E1409620D208DF007CD0FB /* a.gif */,
+				4253FBEE20D363FF0066871D /* b.gif */,
 				42E1409120D202C3007CD0FB /* a.webp */,
 				42E1409D20D211A7007CD0FB /* b.webp */,
 				42996A3220D23BBC0013D8EE /* c.webp */,
@@ -253,6 +256,7 @@
 				42E1409220D202C3007CD0FB /* a.webp in Resources */,
 				42FAEAF720C0DDE200C0F027 /* LaunchScreen.storyboard in Resources */,
 				423E780320C130A9003C8236 /* a.jpg in Resources */,
+				4253FBEF20D363FF0066871D /* b.gif in Resources */,
 				42996A3320D23BBC0013D8EE /* c.webp in Resources */,
 				42FAEAF420C0DDE200C0F027 /* Assets.xcassets in Resources */,
 				42996AB020D25D300013D8EE /* d.webp in Resources */,
